@@ -69,6 +69,11 @@
 			<artifactId>hospital-management</artifactId>
 			<version>1.0</version>
 		</dependency>
+		<dependency>
+			<groupId>com.app</groupId>
+			<artifactId>Authentication-Authorization</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
 	</dependencies>
 
 	<build>

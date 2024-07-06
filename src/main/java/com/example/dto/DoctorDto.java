@@ -20,7 +20,9 @@ public class DoctorDto {
 	
 	private String lastName;
 	
-	private String email;
+	private String emailId;
+	
+	private String password;
 	
 	private String designation;
 	
@@ -28,5 +30,6 @@ public class DoctorDto {
 	
 	private String mobileNumber;
 	
+	private String phoneNo;
 
 }

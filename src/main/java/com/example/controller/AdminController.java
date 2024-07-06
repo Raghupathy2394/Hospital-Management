@@ -33,11 +33,11 @@ public class AdminController {
 	
 	private @NonNull MessagePropertyService messageSource;
 	
-	@PostMapping(value = "/create", produces = "application/json")
-public ResponseEntity<?> create(@ApiParam(value = "The Admin Controller request payload") @RequestBody DoctorDto request, @RequestHeader HttpHeaders httpHeaders) {
-		TransactionContext context = responseGenerator.genereateTransactionContext(httpHeaders);
-		ValidationResult validationResult = validatorService.validate(RequestType.POST, request);
-	}
+//	@PostMapping(value = "/create", produces = "application/json")
+//public ResponseEntity<?> create(@ApiParam(value = "The Admin Controller request payload") @RequestBody DoctorDto request, @RequestHeader HttpHeaders httpHeaders) {
+//		TransactionContext context = responseGenerator.genereateTransactionContext(httpHeaders);
+//	//	ValidationResult validationResult = validatorService.validate(RequestType.POST, request);
+//	}
 }
 
 
